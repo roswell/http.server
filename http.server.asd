@@ -5,3 +5,5 @@
   :author "SANO Masatoshi"
   :mailto "snmsts@gmail.com"
   :entry-point "http.server/main:system-main")
+
+(register-system-packages "lack-app-directory" '(:lack.app.directory))

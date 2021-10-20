@@ -1,7 +1,10 @@
+# http.server
+This is an example how to take advantage of system's entry-point via roswell.
+
 * how to install
 
 ```
-ros install snmsts/http.server
+ros install roswell/http.server
 ```
 
 * how to use

@@ -10,4 +10,5 @@
    (make-instance 'lack.app.directory:lack-app-directory
                   :root #P"./")
    :port (or (ignore-errors (parse-integer (first args))) 5000)
+   :address (or (second args) "127.0.0.1")
    :use-thread nil))
